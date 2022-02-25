@@ -4,6 +4,8 @@
 
 This project was to create my first website from scratch as a portfolio for myself. I used HTML and CSS to creat a website with links, and image of myself, examples of my work, and contact information. This page is responsive at different sizes.
 
+![portfolio](https://user-images.githubusercontent.com/95715383/155772255-34e3a519-0b16-413a-8ddb-b589e84b6ffd.JPG)
+
 ## Installation:
 
 Go to (https://thetryworks.github.io/portfolio/) to view the landing page
