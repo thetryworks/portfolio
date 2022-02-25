@@ -1,0 +1,184 @@
+:root {
+    --darkest-color: #474B24;
+    --medium-color: #5FBB97;
+    --light-color: #8DDCA4;
+    --lightest-color: #F7F1F9;
+}
+
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: var(--light-color);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: flex-start;
+}
+
+header {
+    padding: 20px 35px;
+    background-color: var(--darkest-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 35px;
+    background-color: var(--medium-color);
+    padding: 16px;
+}
+header a {
+    text-decoration: none;
+    color: var(--darkest-color);
+}
+header nav {
+    margin: 20px 0;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    color: var(--medium-color);
+    padding: 10px 15px;
+    font-size: 25px;
+    text-shadow: 0 0 20px rgba(0,0,0,1)
+}
+header nav ul li a:hover {
+    color: var(--lightest-color)
+}
+footer {
+    background-color: var(--lightest-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 30px 20px 73px; 
+    color: var(--darkest-color)  
+    
+}
+footer h2 {
+    border-right: 3px solid var(--darkest-color);
+    padding: 5px 20px 0 0;
+    text-align: right;
+    
+}
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+footer ul li {
+    list-style: none;
+    padding: 20px;
+    font-weight: bold;
+}
+footer ul li a {
+    text-decoration: none;
+}
+.hero {
+    background-image: url("../images/leaves.jpg");
+    height: 300px;    
+}
+#avatar {
+    position: relative;
+    height: 275px;
+    width: auto;
+    padding-left: 123px;
+    padding-top: 28px;
+}
+.about-me {
+    background-color: var(--lightest-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px 20px 73px;  
+    color: var(--darkest-color);
+}
+.about-me h2 {
+    border-right: 3px solid var(--darkest-color);
+    padding: 5px 20px 0 0;
+    text-align: right;
+    
+}
+.about-me p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding-left: 60px;
+}
+
+.work {
+    background-color: var(--lightest-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 30px 20px 100px;  
+}
+.work h2 {
+    border-right: 3px solid var(--darkest-color);
+    padding: 5px 20px 0 0;
+    text-align: right;
+    color: var(--darkest-color)
+}
+.work a {
+    text-decoration: none;
+    color: var(--lightest-color);
+}
+.projects {
+    flex: 1;
+    background-color: var(--lightest-color);
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .card {
+    border-width: 1px;
+    flex: 0 0 200px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin: 20px;
+  }
+  #first {
+    flex-grow: 1;
+    max-width: 300px;
+
+  }
+  .card > header {
+    padding: 20px;
+  }
+  
+  .card p {
+    text-align: center;
+    color: var(--darkest-color);
+  }
+  
+  .card > img {
+    width: 100%;
+  }
+  
+  @media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+  }
+      
+
+
+
+
